@@ -4,7 +4,7 @@
 }
 
 .contato_titulo{
-    color: var(--azul-degrade);
+    background: var(--azul-degrade);
     font-size: 18px;
     font-weight: 500;
     -webkit-background-clip: text;
@@ -13,7 +13,7 @@
 }
 
 .contato__texto{
-    color: var(--azul-degrade);
+    background: var(--azul-degrade);
     font-weight: 300;
     margin: 1em 0;
     -webkit-background-clip: text;
@@ -27,6 +27,8 @@
     border-radius: 24px;
     padding: 1em;
     width: 100%;
+    box-sizing: border-box;
+    color: var(--azul);
 }
 
 .contato__input::placeholder{
